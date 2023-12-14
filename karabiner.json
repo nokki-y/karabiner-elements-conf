@@ -407,6 +407,67 @@
         },
         "rules": [
           {
+            "description": "Disable Voice over",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "f5",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_command"
+                    ]
+                  }
+                },
+                "to": {
+                  "key_code": "left_command"
+                },
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "caps_lock",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_shift"
+                    ],
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "page_down",
+                    "modifiers": []
+                  }
+                ],
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "caps_lock",
+                  "modifiers": {
+                    "mandatory": [
+                      "right_shift"
+                    ],
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "apple_vendor_keyboard_key_code": "mission_control",
+                    "modifiers": [
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Setting for Figma",
             "manipulators": [
               {
@@ -767,67 +828,6 @@
                     "option"
                   ]
                 },
-                "type": "basic"
-              }
-            ]
-          },
-          {
-            "description": "Disable Voice over",
-            "manipulators": [
-              {
-                "from": {
-                  "key_code": "f5",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_command"
-                    ]
-                  }
-                },
-                "to": {
-                  "key_code": "left_command"
-                },
-                "type": "basic"
-              },
-              {
-                "from": {
-                  "key_code": "caps_lock",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_shift"
-                    ],
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "page_down",
-                    "modifiers": []
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "from": {
-                  "key_code": "caps_lock",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_shift"
-                    ],
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "apple_vendor_keyboard_key_code": "mission_control",
-                    "modifiers": [
-                      "left_command"
-                    ]
-                  }
-                ],
                 "type": "basic"
               }
             ]
