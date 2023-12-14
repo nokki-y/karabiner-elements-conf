@@ -1,0 +1,366 @@
+{
+  "title": "setting-for-figma",
+  "rules": [
+    {
+      "description": "Setting for Figma",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "slash",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 250,
+            "basic.to_if_held_down_threshold_milliseconds": 250
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1"
+          },
+          "to": {
+            "key_code": "f"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2"
+          },
+          "to": {
+            "key_code": "r"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f3"
+          },
+          "to": {
+            "key_code": "l"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4"
+          },
+          "to": {
+            "key_code": "l",
+            "modifiers": [
+              "shift"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5"
+          },
+          "to": {
+            "key_code": "o"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "a",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f6",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "h",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "d",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "w",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "v",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "s",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "t",
+            "modifiers": [
+              "control",
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "v",
+            "modifiers": [
+              "control",
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "h",
+            "modifiers": [
+              "control",
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
