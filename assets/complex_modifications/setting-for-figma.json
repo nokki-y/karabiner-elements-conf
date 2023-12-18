@@ -10,99 +10,6 @@
             "key_code": "f1"
           },
           "to": {
-            "key_code": "f"
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.figma\\.Desktop$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f2"
-          },
-          "to": {
-            "key_code": "r"
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.figma\\.Desktop$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f3"
-          },
-          "to": {
-            "key_code": "l"
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.figma\\.Desktop$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f4"
-          },
-          "to": {
-            "key_code": "l",
-            "modifiers": [
-              "shift"
-            ]
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.figma\\.Desktop$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f5"
-          },
-          "to": {
-            "key_code": "o"
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com\\.figma\\.Desktop$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f5",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
-          },
-          "to": {
             "key_code": "a",
             "modifiers": [
               "option"
@@ -120,12 +27,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f6",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
+            "key_code": "f2"
           },
           "to": {
             "key_code": "h",
@@ -145,12 +47,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f7",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
+            "key_code": "f3"
           },
           "to": {
             "key_code": "d",
@@ -170,12 +67,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f9",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
+            "key_code": "f5"
           },
           "to": {
             "key_code": "w",
@@ -195,12 +87,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f10",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
+            "key_code": "f6"
           },
           "to": {
             "key_code": "v",
@@ -220,12 +107,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f11",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
+            "key_code": "f7"
           },
           "to": {
             "key_code": "s",
@@ -245,13 +127,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f9",
-            "modifiers": {
-              "mandatory": [
-                "command",
-                "shift"
-              ]
-            }
+            "key_code": "f9"
           },
           "to": {
             "key_code": "t",
@@ -272,13 +148,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f10",
-            "modifiers": {
-              "mandatory": [
-                "command",
-                "shift"
-              ]
-            }
+            "key_code": "f10"
           },
           "to": {
             "key_code": "v",
@@ -299,13 +169,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f11",
-            "modifiers": {
-              "mandatory": [
-                "command",
-                "shift"
-              ]
-            }
+            "key_code": "f11"
           },
           "to": {
             "key_code": "h",
